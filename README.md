@@ -24,6 +24,7 @@ Generates a comment like:
 
 A sample build file (subversion in this case) might be:
 
+### svn
 ```
 Path: .
 URL: https://mysite.com/svn/repos/project/trunk
@@ -35,4 +36,12 @@ Schedule: normal
 Last Changed Author: msharman
 Last Changed Rev: 26400
 Last Changed Date: 2012-10-31 12:21:30 +1100 (Wed, 31 Oct 2012)
+```
+
+### git
+```
+commit bbdfb745e1a39ec17911f24b5fcab8f0b54e611c
+Merge: b37018a 12f3d57
+Author: Michael Sharman <myemail@somedomain.com>
+Date:   Thu Jan 31 14:55:19 2013 +1100
 ```
